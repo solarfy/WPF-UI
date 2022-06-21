@@ -1,0 +1,302 @@
+﻿<Window x:Class="Smart_Home_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Smart_Home_App"
+        xmlns:uc="clr-namespace:Smart_Home_App.User_Controls"
+        mc:Ignorable="d"
+        Width="1080" Height="720" WindowStartupLocation="CenterScreen"
+        Background="Transparent" WindowStyle="None" AllowsTransparency="True"
+        Name="window">
+    <Window.Resources>
+        <Style x:Key="menuButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Margin" Value="15 0 15 20"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="10" BorderThickness="1" BorderBrush="Transparent">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" CornerRadius="10" BorderThickness="1" BorderBrush="#ffffff">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="borderPage" TargetType="Border">
+            <Setter Property="Background" Value="#000000"/>
+            <Setter Property="CornerRadius" Value="25"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="Margin" Value="30 0 0 0"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="1" BlurRadius="20" Opacity="0.5"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+    </Window.Resources>
+    
+    <Border Background="#ffffff" Padding="30" CornerRadius="25"
+            MouseDown="BorderOnMouseDown"  MouseLeftButtonDown="BorderOnLeftButtonDown">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!--菜单-->
+            <Border CornerRadius="10" Background="#3253f1">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="1" BlurRadius="20" Opacity="0.4"/>
+                </Border.Effect>
+
+                <Grid>
+                    <StackPanel>
+                        <Button Style="{StaticResource menuButton}" Margin="15 40 15 20" Background="#ffffff">
+                            <Image Source="/Images/home2.png" Width="24"/>
+                            <Button.Triggers>
+                                <EventTrigger RoutedEvent="Button.Click">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="page1"
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(TranslateTransform.Y)"
+                                                             To="0" Duration="0:0:0.5"/>
+
+                                            <DoubleAnimation Storyboard.TargetName="page2"
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(TranslateTransform.Y)"
+                                                             To="{Binding ElementName=window,Path=ActualHeight}"
+                                                             Duration="0:0:0.3"/>
+
+                                            <DoubleAnimation Storyboard.TargetName="page1"
+                                                             Storyboard.TargetProperty="Opacity"
+                                                             To="1.0" Duration="0:0:0.5"/>
+
+                                            <DoubleAnimation Storyboard.TargetName="page2"
+                                                             Storyboard.TargetProperty="Opacity"
+                                                             To="0.0" Duration="0:0:0.5"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Button.Triggers>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/bed.png" Width="24"/>
+                            <Button.Triggers>
+                                <EventTrigger RoutedEvent="Button.Click">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="page1"
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(TranslateTransform.Y)"
+                                                             To="{Binding ElementName=window,Path=ActualHeight}" 
+                                                             Duration="0:0:0.3"/>
+
+                                            <DoubleAnimation Storyboard.TargetName="page2"
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(TranslateTransform.Y)"
+                                                             To="0"
+                                                             Duration="0:0:0.3"/>
+
+                                            <DoubleAnimation Storyboard.TargetName="page1"
+                                                             Storyboard.TargetProperty="Opacity"
+                                                             To="0.0" Duration="0:0:0.5"/>
+
+                                            <DoubleAnimation Storyboard.TargetName="page2"
+                                                             Storyboard.TargetProperty="Opacity"
+                                                             To="1.0" Duration="0:0:0.5"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Button.Triggers>
+
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/user.png" Width="24"/>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/shield.png" Width="24"/>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/location.png" Width="24"/>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/chart.png" Width="24"/>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/setting.png" Width="24"/>
+                        </Button>
+                    </StackPanel>
+
+                    <Button Style="{StaticResource menuButton}" Margin="15 0 15 25" VerticalAlignment="Bottom"
+                            Click="CloseButtonOnClick">
+                        <Image Source="/Images/logout.png" Width="24"/>
+                    </Button>
+
+                </Grid>
+            </Border>
+            
+            <!--Page 1-->
+            <Border x:Name="page1" Style="{StaticResource borderPage}">
+                <Border.RenderTransform>
+                    <TranslateTransform Y="0"/>
+                </Border.RenderTransform>
+
+                <Border CornerRadius="25">
+                    <Border.Background>
+                        <ImageBrush Stretch="Fill" Opacity="0.6" ImageSource="/Images/Page_1.jpg"/>
+                    </Border.Background>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <!--标题-->
+                        <StackPanel VerticalAlignment="Center" Margin="60 0 0 0">
+                            <TextBlock Text="Controlling" Foreground="#ffffff" FontSize="22"/>
+                            <TextBlock Text="Lounge and Kitchen" Foreground="#ffffff" Margin="0 10" FontSize="36" FontWeight="Bold"
+                                       TextWrapping="Wrap"/>
+
+                            <TextBlock Foreground="#ffffff" FontSize="32">
+                                <Run Text="32"/><Run Text="°c" FontWeight="Thin" FontSize="26"/>
+                            </TextBlock>
+
+                            <TextBlock Text="Clecious" Foreground="#ffffff" FontSize="12" Margin="15 0 0 0"/>
+                        </StackPanel>
+                        
+                        <!--面板-->
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="0 0 50 0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                
+                                <!--选项卡-->
+                                <uc:Card Grid.Row="0" Grid.Column="0" Margin="0 0 8 8" Title="Refridgerator"
+                                         ImageOff="/Images/fridge_off.png"
+                                         ImageOn="/Images/fridge_on.png"/>
+
+                                <uc:Card Grid.Row="0" Grid.Column="1" Margin="8 0 0 8" Title="Temprature"
+                                         ImageOff="/Images/electric_off.png"
+                                         ImageOn="/Images/electric_on.png"
+                                         IsChecked="True"/>
+
+                                <uc:Card Grid.Row="1" Grid.Column="0" Margin="0 8 8 0" Title="Air Conditioner"
+                                         ImageOff="/Images/cordinator_off.png"
+                                         ImageOn="/Images/cordinator_on.png"/>
+
+                                <uc:Card Grid.Row="1" Grid.Column="1" Margin="8 8 0 0" Title="Lights"
+                                         ImageOff="/Images/Light_off.png"
+                                         ImageOn="/Images/Light_on.png"/>
+
+                            </Grid>       
+                            
+                            <!--新增-->
+                            <uc:AddButton Title="Add New Room" Grid.Column="1"
+                                          Margin="0 50 0 0" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Border>
+
+            <!--Page 2-->
+            <Border x:Name="page2" Style="{StaticResource borderPage}">
+                <Border.RenderTransform>
+                    <TranslateTransform Y="{Binding ElementName=window,Path=ActualHeight}"/>
+                </Border.RenderTransform>
+
+                <Border CornerRadius="25">
+                    <Border.Background>
+                        <ImageBrush Stretch="Fill" Opacity="0.6" ImageSource="/Images/Page_2.jpg"/>
+                    </Border.Background>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+                        <!--新增-->
+                        <uc:AddButton Title="Add New Device" Margin="0 40 40 0"/>
+
+                        <!--标题-->
+                        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 40 0 0">
+                            <TextBlock Foreground="#ffffff" FontSize="32" TextAlignment="Center">
+                                <Run Text="32"/><Run Text="°c" FontWeight="Thin" FontSize="26"/>
+                            </TextBlock>
+
+                            <TextBlock Text="Clecious" Foreground="#ffffff" FontSize="12" TextAlignment="Center"/>
+                            <TextBlock Text="You Are Controlling" Foreground="#ffffff" FontSize="12" TextAlignment="Center" Margin="0 15 0 10"/>
+                            <TextBlock Text="Main Lounge and Living Room" Foreground="#ffffff" FontSize="36" FontWeight="Bold" TextAlignment="Center"/>
+                            
+                        </StackPanel>
+
+                        <!--面板-->
+                        <StackPanel Grid.Row="1" VerticalAlignment="Center" Margin="0 0 0 30">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!--选项卡-->
+                                <uc:Card Grid.Column="0" Margin="12 0 12 0" Title="Refridgerator"
+                                         IsHorizontal="True"
+                                         ImageOff="/Images/fridge_off.png"
+                                         ImageOn="/Images/fridge_on.png"/>
+
+                                <uc:Card Grid.Column="1" Margin="12 0 12 0" Title="Temprature"
+                                         IsHorizontal="True"
+                                         ImageOff="/Images/electric_off.png"
+                                         ImageOn="/Images/electric_on.png"
+                                         IsChecked="True"/>
+
+                                <uc:Card Grid.Column="2" Margin="12 0 12 0" Title="Air Conditioner"
+                                         IsHorizontal="True"
+                                         ImageOff="/Images/cordinator_off.png"
+                                         ImageOn="/Images/cordinator_on.png"/>
+
+                                <uc:Card Grid.Column="3" Margin="12 0 12 0" Title="Lights"
+                                         IsHorizontal="True"
+                                         ImageOff="/Images/Light_off.png"
+                                         ImageOn="/Images/Light_on.png"/>
+
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

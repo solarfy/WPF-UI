@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "HXKr2vKnHv2yI2jZ7WjbO/0o4RWXG/wBMk7xf4sFbrkB+/vSzXnuVlvRca/wN10cJAeLWGHT6L0SUqvMvppVZQ==",
+  "success": true,
+  "projectFilePath": "E:\\Code\\WPF-Projects\\WPF_UI\\Register Page\\Register Page.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“net5.0-windows7.0”还原包“FontAwesome.WPF 4.7.0.9”。此包可能与项目不完全兼容。",
+      "libraryId": "FontAwesome.WPF",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

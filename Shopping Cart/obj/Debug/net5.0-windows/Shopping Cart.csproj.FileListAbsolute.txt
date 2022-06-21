@@ -1,0 +1,26 @@
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\bin\Debug\net5.0-windows\Shopping Cart.exe
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\bin\Debug\net5.0-windows\Shopping Cart.deps.json
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\bin\Debug\net5.0-windows\Shopping Cart.runtimeconfig.json
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\bin\Debug\net5.0-windows\Shopping Cart.runtimeconfig.dev.json
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\bin\Debug\net5.0-windows\Shopping Cart.dll
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\bin\Debug\net5.0-windows\ref\Shopping Cart.dll
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\bin\Debug\net5.0-windows\Shopping Cart.pdb
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart.csproj.AssemblyReference.cache
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\User Controls\Product.g.cs
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\App.g.cs
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart_MarkupCompile.cache
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart_MarkupCompile.lref
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\App.baml
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\User Controls\Product.baml
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart.g.resources
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart.AssemblyInfoInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart.AssemblyInfo.cs
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart.csproj.CoreCompileInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart.dll
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\ref\Shopping Cart.dll
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart.pdb
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\Shopping Cart.genruntimeconfig.cache
+E:\Code\WPF-Projects\WPF_UI\Shopping Cart\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs

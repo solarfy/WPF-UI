@@ -1,0 +1,165 @@
+﻿<Window x:Class="Sign_UP_Form.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sign_UP_Form"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Height="645" Width="875" WindowStartupLocation="CenterScreen" WindowStyle="None"
+        AllowsTransparency="True" Background="Transparent" ResizeMode="NoResize"
+        FontSize="18" FontFamily="{DynamicResource MaterialDesignFont}">
+    
+    <Grid Margin="20">
+        <Grid.Effect>
+            <DropShadowEffect BlurRadius="30" ShadowDepth="1" Opacity="0.4"/>
+        </Grid.Effect>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.22*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!--左侧-->
+        <Border Background="#07bf96" CornerRadius="10 0 0 10" ClipToBounds="True">
+            <Border.Clip>
+                <RectangleGeometry Rect="0 0 400 605" RadiusX="10" RadiusY="10"/>
+            </Border.Clip>
+
+            <Grid>
+                <!--标题-->
+                <StackPanel Margin="0 120 0 0" VerticalAlignment="Top">
+                    <TextBlock FontSize="46" FontWeight="Light" Text="Sign up" Foreground="#ffffff" TextAlignment="Center"/>
+                    <TextBlock FontWeight="Light" FontSize="16" Foreground="#d1f2eb" TextAlignment="Center" Text="to use all features" Margin="0 15 0 3"/>
+                    <TextBlock FontSize="16" FontWeight="Light" Text="of the application" Foreground="#d1f2eb" TextAlignment="Center"/>
+                </StackPanel>
+                
+                <!--背景圆-->
+                <Grid>
+                    <Ellipse Width="500" Height="500" VerticalAlignment="Bottom" Fill="#5eccb4" Margin="50 0 0 -200" Opacity="0.6"/>
+
+                    <Ellipse Width="300" Height="300" VerticalAlignment="Bottom" Fill="#5bcbb3" Margin="-450 0 0 30" Opacity="0.3"/>
+
+                    <Ellipse Width="400" Height="400" VerticalAlignment="Bottom" Fill="#5eccb4" Margin="-320 0 0 -120" Opacity="0.3"/>
+
+                    <Ellipse Width="250" Height="250" VerticalAlignment="Bottom" Fill="#5bc9b2" Margin="-380 0 0 -120"/>
+
+                    <Ellipse Width="400" Height="400" VerticalAlignment="Bottom" Fill="#5eccb4" Margin="280 0 0 -70" Opacity="0.8"/>
+                    
+                    <!--图标-->
+                    <Border Background="#fdfdfd" CornerRadius="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                            Height="110" Width="110" Margin="0 0 0 80">
+                        <Grid>
+                            <materialDesign:PackIcon Kind="Tick" Width="70" Height="70" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <materialDesign:PackIcon.Foreground>
+                                    <LinearGradientBrush StartPoint="0 1">
+                                        <GradientStop Color="#e27c53" Offset="0.1"/>
+                                        <GradientStop Color="#dca530" Offset="0.3"/>
+                                        <GradientStop Color="#3bb799" Offset="0.5"/>
+                                        <GradientStop Color="#67cbee" Offset="0.7"/>
+                                        <GradientStop Color="#3699db" Offset="0.8"/>
+                                    </LinearGradientBrush>
+                                </materialDesign:PackIcon.Foreground>
+                            </materialDesign:PackIcon>
+                            
+                            
+                            <!--彩色圆-->
+                            <Ellipse Width="100" Height="100" StrokeThickness="4">
+                                <Ellipse.Stroke>
+                                    <LinearGradientBrush>
+                                        <GradientStop Color="#e27c53" Offset="0.15"/>
+                                        <GradientStop Color="#dca530" Offset="0.2"/>
+                                        <GradientStop Color="#8bb356" Offset="0.3"/>
+                                        <GradientStop Color="#3bb799" Offset="0.4"/>
+                                        <GradientStop Color="#67cbee" Offset="0.5"/>
+                                        <GradientStop Color="#3699db" Offset="0.6"/>
+                                        <GradientStop Color="#9264aa" Offset="0.8"/>
+                                        <GradientStop Color="#6e94de" Offset="0.9"/>
+                                    </LinearGradientBrush>
+                                </Ellipse.Stroke>
+                            </Ellipse>
+                            
+                        </Grid>
+                    </Border>
+                </Grid>
+                
+                
+            </Grid>
+
+        </Border>
+        
+        <!--右侧-->
+        <Border Grid.Column="1" Background="#ffffff" CornerRadius="0 10 10 0" MouseDown="BorderOnMouseDown">
+            <Grid>
+                <Button Width="20" Height="20" BorderThickness="0" VerticalAlignment="Top" HorizontalAlignment="Right"
+                        Margin="0 13 14 0" Click="CloseButtonOnClick">
+                    <Button.Background>
+                        <VisualBrush>
+                            <VisualBrush.Visual>
+                                <!--关闭图标-->
+                                <materialDesign:PackIcon Kind="Close"/>
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Button.Background>
+                </Button>
+                               
+                <!--输入-->
+                <StackPanel VerticalAlignment="Center" Margin="75 0">
+                    <TextBox Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                             Text="John.Doe_am"
+                             materialDesign:HintAssist.Hint="用户名"
+                             materialDesign:HintAssist.FloatingOffset="0, -20"
+                             BorderBrush="#c5c8cc"
+                             BorderThickness="0 0 0 1.5"/>
+
+                    <TextBox Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                             Text="JohnDoe@email.com"
+                             materialDesign:HintAssist.Hint="邮箱"
+                             materialDesign:HintAssist.FloatingOffset="0, -20"
+                             BorderBrush="#c5c8cc"
+                             Margin="0 27"
+                             BorderThickness="0 0 0 1.5"/>
+
+                    <PasswordBox Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                             Password="12345678"
+                             materialDesign:HintAssist.Hint="密码"
+                             materialDesign:HintAssist.FloatingOffset="0, -20"
+                             BorderBrush="#c5c8cc"                     
+                             BorderThickness="0 0 0 1.5"/>
+
+                    <PasswordBox Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                             Password="12345678"
+                             materialDesign:HintAssist.Hint="重复密码"
+                             materialDesign:HintAssist.FloatingOffset="0, -20"
+                             BorderBrush="#c5c8cc"      
+                             Margin="0 27 0 0"
+                             BorderThickness="0 0 0 1.5"/>
+
+                    <CheckBox Margin="0 40 0 20" FontSize="13">
+                        <TextBlock>
+                            <Run Foreground="#b6b6b6">By signing I agree with</Run>
+                            <Run Foreground="#07bf96">terms and conditions</Run>
+                        </TextBlock>
+                    </CheckBox>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Sign up"
+                                Background="#05b790"
+                                Foreground="#ffffff"
+                                FontSize="18"
+                                Width="120"
+                                Height="45"
+                                materialDesign:ButtonAssist.CornerRadius="22"/>
+
+                        <Button Content="or Login"                               
+                                FontSize="16"
+                                Width="120"
+                                Height="45"
+                                Margin="5 0 0 0"
+                                Style="{StaticResource MaterialDesignFlatButton}"
+                                materialDesign:ButtonAssist.CornerRadius="22"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

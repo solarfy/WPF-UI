@@ -1,0 +1,23 @@
+E:\Code\WPF-Projects\WPF_UI\YellowPad\bin\Debug\Yellow Pad Framework.exe.config
+E:\Code\WPF-Projects\WPF_UI\YellowPad\bin\Debug\Yellow Pad Framework.exe
+E:\Code\WPF-Projects\WPF_UI\YellowPad\bin\Debug\Yellow Pad Framework.pdb
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Yellow Pad Framework.csproj.AssemblyReference.cache
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Help\EraserToolDialog.baml
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\StylusToolDialog.g.cs
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\YellowPadAboutDialog.g.cs
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\YellowPadHelp.g.cs
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\YellowPadWindow.g.cs
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\App.g.cs
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Yellow Pad Framework_MarkupCompile.cache
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Yellow Pad Framework_MarkupCompile.lref
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\StylusToolDialog.baml
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\YellowPadAboutDialog.baml
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\YellowPadHelp.baml
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\YellowPadWindow.baml
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Yellow Pad Framework.g.resources
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Yellow_Pad_Framework.Properties.Resources.resources
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Yellow Pad Framework.csproj.GenerateResource.cache
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Yellow Pad Framework.csproj.CoreCompileInputs.cache
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Yellow Pad Framework.exe
+E:\Code\WPF-Projects\WPF_UI\YellowPad\obj\Debug\Yellow Pad Framework.pdb

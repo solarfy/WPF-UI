@@ -1,0 +1,9 @@
+﻿<Application x:Class="Yellow_Pad_Framework.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Yellow_Pad_Framework"
+             StartupUri="YellowPadWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

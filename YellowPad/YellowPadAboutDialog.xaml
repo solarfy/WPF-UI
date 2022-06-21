@@ -1,0 +1,28 @@
+﻿<Window x:Class="Yellow_Pad_Framework.YellowPadAboutDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Yellow_Pad_Framework"
+        mc:Ignorable="d"
+        Title="About YellowPad" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" SizeToContent="WidthAndHeight" ResizeMode="NoResize">
+    <StackPanel>
+        <TextBlock HorizontalAlignment="Center" Margin="12" FontSize="48">
+            <Italic>Yellow Pad</Italic>
+        </TextBlock>
+
+        <Image Source="Images/book.png" Stretch="None" Margin="12"/>
+
+        <Image x:Name="imgSignature" Stretch="None" Margin="12"/>
+
+        <TextBlock HorizontalAlignment="Center" FontSize="20">
+            <Hyperlink NavigateUri="http://www.charlespetzold.com" RequestNavigate="LinkOnRequestNavigate">
+                http://www.baidu.com
+            </Hyperlink>
+        </TextBlock>
+
+        <Button HorizontalAlignment="Center" MinWidth="60" Margin="12" IsDefault="True" IsCancel="True">
+            OK
+        </Button>
+    </StackPanel>
+</Window>

@@ -1,0 +1,121 @@
+﻿<Window x:Class="Register_Page.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Register_Page"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:uc="clr-namespace:Register_Page.User_Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1000" Background="Transparent" WindowStyle="None"
+        WindowStartupLocation="CenterScreen" AllowsTransparency="True">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!--左侧-->
+        <Border Background="#ffd500" Padding="30" CornerRadius="25 0 0 25">
+            <StackPanel VerticalAlignment="Center">
+                <Image Source="/Images/img.png" Width="160" Height="160" Margin="0 0 0 40"/>
+
+                <TextBlock Text="Let's get you sey up" TextAlignment="Center" FontWeight="SemiBold" FontSize="28" Foreground="#363636"/>
+
+                <TextBlock Text="it should only take a couple of minute to pair with your watch"
+                           TextWrapping="Wrap" FontSize="16" TextAlignment="Center" Foreground="#363636" Margin="0 20 0 20"/>
+
+                <Button Style="{StaticResource buttonBlack}">
+                    <fa:ImageAwesome Icon="AngleRight" Width="25" Height="25" Foreground="#ffd500" Margin="3 0 0 0"/>
+                </Button>
+            </StackPanel>            
+        </Border>
+        
+        <!--输入部分-->
+        <Border Grid.Column="1" Padding="20" Background="#ffffff" CornerRadius="0 25 25 0" MouseDown="BorderOnMouseDown">
+            <Grid>
+                <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="25" Height="25" Margin="0 0 40 0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border>
+                                <Grid>
+                                    <ContentPresenter/>
+                                </Grid>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                    <Image Source="/Images/minimize.png" Style="{StaticResource iconApp}"/>
+                </Button>
+
+                <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="25" Height="25"
+                        Click="CloseButtonOnClick">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border>
+                                <Grid>
+                                    <ContentPresenter/>
+                                </Grid>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                    <Image Source="/Images/close.png" Width="25" Margin="0 4 5 0" Style="{StaticResource iconApp}"/>
+                </Button>
+                              
+                <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 10 0 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0"  Text="Name" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="1"  Text="Family" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="2"  Text="Gender" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="3"  Text="Date of Birth" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="4"  Text="Email" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="5"  Text="Mobile" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="6"  Text="Membership" Style="{StaticResource text}"/>
+
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="0" Hint="karim"/>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="1" Hint="Doe"/>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="3" Hint="01/02/1980"/>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="4" Hint="KarimDoe@email.com"/>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="5" Hint="+98 7654 3210"/>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" Margin="0 10">
+                        <uc:MyOption Icon="Male" Text="Male"/>
+                        <uc:MyOption Icon="Female" Text="Female"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="6" Margin="0 10">
+                        <uc:MyOption Icon="CreditCard" Text="Classic"/>
+                        <uc:MyOption Icon="CreditCard" Text="Silver"/>
+                        <uc:MyOption Icon="CreditCard" Text="Gold"/>
+                    </StackPanel>
+
+                    <Grid Grid.Column="1" Grid.Row="7" Margin="0 40 0 0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Content="Cancel" Margin="0 0 10 0" Style="{StaticResource buttonMain}"/>
+                        <Button Content="Save" Margin="10 0 0 0" Grid.Column="1" Style="{StaticResource buttonMainGreen}"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

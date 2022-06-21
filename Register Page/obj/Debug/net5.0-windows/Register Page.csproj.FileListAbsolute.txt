@@ -1,0 +1,30 @@
+E:\Code\WPF-Projects\WPF_UI\Register Page\bin\Debug\net5.0-windows\Register Page.exe
+E:\Code\WPF-Projects\WPF_UI\Register Page\bin\Debug\net5.0-windows\Register Page.deps.json
+E:\Code\WPF-Projects\WPF_UI\Register Page\bin\Debug\net5.0-windows\Register Page.runtimeconfig.json
+E:\Code\WPF-Projects\WPF_UI\Register Page\bin\Debug\net5.0-windows\Register Page.runtimeconfig.dev.json
+E:\Code\WPF-Projects\WPF_UI\Register Page\bin\Debug\net5.0-windows\Register Page.dll
+E:\Code\WPF-Projects\WPF_UI\Register Page\bin\Debug\net5.0-windows\ref\Register Page.dll
+E:\Code\WPF-Projects\WPF_UI\Register Page\bin\Debug\net5.0-windows\Register Page.pdb
+E:\Code\WPF-Projects\WPF_UI\Register Page\bin\Debug\net5.0-windows\FontAwesome.WPF.dll
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.csproj.AssemblyReference.cache
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\App.g.cs
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page_MarkupCompile.cache
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page_MarkupCompile.lref
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\App.baml
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.g.resources
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.AssemblyInfoInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.AssemblyInfo.cs
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.csproj.CoreCompileInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.csproj.CopyComplete
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.dll
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\ref\Register Page.dll
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.pdb
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\Register Page.genruntimeconfig.cache
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\User Controls\MyTextBox.g.cs
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\User Controls\MyTextBox.baml
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\User Controls\MyOption.g.cs
+E:\Code\WPF-Projects\WPF_UI\Register Page\obj\Debug\net5.0-windows\User Controls\MyOption.baml

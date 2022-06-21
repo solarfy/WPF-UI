@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xk8hvdBvHcmdzVtJsIdn/2E4koD0T3Z5LmE+096txFFIuB/s7OEjL+1vz0p7HNc8sFohGPjiy8olDzzF6xMWgQ==",
+  "success": true,
+  "projectFilePath": "E:\\Code\\WPF-Projects\\WPF_UI\\Sign UP Form\\Sign UP Form.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\materialdesigncolors\\2.0.5\\materialdesigncolors.2.0.5.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\materialdesignthemes\\4.4.0\\materialdesignthemes.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

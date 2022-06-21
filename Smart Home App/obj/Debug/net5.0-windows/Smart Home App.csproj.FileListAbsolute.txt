@@ -1,0 +1,28 @@
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\bin\Debug\net5.0-windows\Smart Home App.exe
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\bin\Debug\net5.0-windows\Smart Home App.deps.json
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\bin\Debug\net5.0-windows\Smart Home App.runtimeconfig.json
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\bin\Debug\net5.0-windows\Smart Home App.runtimeconfig.dev.json
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\bin\Debug\net5.0-windows\Smart Home App.dll
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\bin\Debug\net5.0-windows\ref\Smart Home App.dll
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\bin\Debug\net5.0-windows\Smart Home App.pdb
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App.csproj.AssemblyReference.cache
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\App.g.cs
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App_MarkupCompile.cache
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App_MarkupCompile.lref
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App.g.resources
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App.AssemblyInfoInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App.AssemblyInfo.cs
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App.csproj.CoreCompileInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App.dll
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\ref\Smart Home App.dll
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App.pdb
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\Smart Home App.genruntimeconfig.cache
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\User Controls\Card.g.cs
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\App.baml
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\User Controls\Card.baml
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\User Controls\AddButton.g.cs
+E:\Code\WPF-Projects\WPF_UI\Smart Home App\obj\Debug\net5.0-windows\User Controls\AddButton.baml

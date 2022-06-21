@@ -1,0 +1,22 @@
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number.csproj.AssemblyReference.cache
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\App.g.cs
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number_MarkupCompile.cache
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number_MarkupCompile.lref
+E:\Code\WPF-Projects\WPF_UI\Sort Number\bin\Debug\net5.0-windows\Sort Number.exe
+E:\Code\WPF-Projects\WPF_UI\Sort Number\bin\Debug\net5.0-windows\Sort Number.deps.json
+E:\Code\WPF-Projects\WPF_UI\Sort Number\bin\Debug\net5.0-windows\Sort Number.runtimeconfig.json
+E:\Code\WPF-Projects\WPF_UI\Sort Number\bin\Debug\net5.0-windows\Sort Number.runtimeconfig.dev.json
+E:\Code\WPF-Projects\WPF_UI\Sort Number\bin\Debug\net5.0-windows\Sort Number.dll
+E:\Code\WPF-Projects\WPF_UI\Sort Number\bin\Debug\net5.0-windows\ref\Sort Number.dll
+E:\Code\WPF-Projects\WPF_UI\Sort Number\bin\Debug\net5.0-windows\Sort Number.pdb
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number.g.resources
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number.AssemblyInfoInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number.AssemblyInfo.cs
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number.csproj.CoreCompileInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number.dll
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\ref\Sort Number.dll
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number.pdb
+E:\Code\WPF-Projects\WPF_UI\Sort Number\obj\Debug\net5.0-windows\Sort Number.genruntimeconfig.cache

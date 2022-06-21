@@ -1,0 +1,26 @@
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\bin\Debug\net5.0-windows\Sign UP Form.exe
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\bin\Debug\net5.0-windows\Sign UP Form.deps.json
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\bin\Debug\net5.0-windows\Sign UP Form.runtimeconfig.json
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\bin\Debug\net5.0-windows\Sign UP Form.runtimeconfig.dev.json
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\bin\Debug\net5.0-windows\Sign UP Form.dll
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\bin\Debug\net5.0-windows\ref\Sign UP Form.dll
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\bin\Debug\net5.0-windows\Sign UP Form.pdb
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\App.g.cs
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form_MarkupCompile.cache
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form_MarkupCompile.lref
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\App.baml
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.g.resources
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.AssemblyInfoInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.AssemblyInfo.cs
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.csproj.CoreCompileInputs.cache
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.csproj.CopyComplete
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.dll
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\ref\Sign UP Form.dll
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.pdb
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.genruntimeconfig.cache
+E:\Code\WPF-Projects\WPF_UI\Sign UP Form\obj\Debug\net5.0-windows\Sign UP Form.csproj.AssemblyReference.cache
